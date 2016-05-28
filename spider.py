@@ -134,7 +134,7 @@ def get_user():
 if __name__ == '__main__':
     html = requests.session()
     html.cookies = http.cookiejar.LWPCookieJar('Cookie')
-    html.cookies.load(ignore_discard=True)
+    # html.cookies.load(ignore_discard=True)
     email = None
     password = None
     id = None
